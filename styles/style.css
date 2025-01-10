@@ -144,7 +144,22 @@ nav {
   border-radius: 16px;
   background-image: url('../assets/quote-bg.png');
   background-repeat: no-repeat;
-  background-position: left top;
-  
-  padding: 25px 24px;
+  background-position: 23px 23px;
+  padding: 48px 24px;
+}
+
+.message{
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 0;
+}
+.chief-adviser-name{
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.design{
+  margin: 0;
+  color:rgba(14, 14, 14, 0.6);
 }
