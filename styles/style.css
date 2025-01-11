@@ -16,7 +16,7 @@
   border: none;
   border-radius: 8px;
   font-size: 18px;
-  padding: 17px 34px;
+  padding: 14px 28px;
 }
 
 .section-title {
@@ -24,7 +24,7 @@
   margin-bottom: 24px;
 }
 
-.section-description {
+.section-description, .news-details {
   color: rgba(14, 14, 14, 0.7);
   margin-bottom: 32px;
 }
@@ -162,4 +162,46 @@ nav {
 .design{
   margin: 0;
   color:rgba(14, 14, 14, 0.6);
+}
+
+/* recent-news styles */
+.recent-news-section{
+  margin: 0 160px 80px;
+}
+
+.recent-news-cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  border-radius: 24px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  padding: 48px;
+  margin-bottom: 24px;
+}
+
+.news-thumb{
+  width: 408px;
+  border-radius: 24px;
+  margin: 0;
+}
+
+.news-title{
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.date-time{
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 0;
+}
+.news-details{
+  margin-top: 8px;
+  margin-bottom: 24px;
 }
