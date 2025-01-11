@@ -1,4 +1,4 @@
-.fira-sans{
+.fira-sans {
   font-family: "Fira Sans", serif;
   font-style: normal;
 }
@@ -26,10 +26,12 @@
   cursor: pointer;
   transition: background-color 0.15s, opacity 0.15s;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
   opacity: 0.8;
 }
-.btn-primary:active{
+
+.btn-primary:active {
   background-color: #004836;
 }
 
@@ -38,7 +40,7 @@
   margin-bottom: 24px;
 }
 
-.section-description{
+.section-description {
   color: rgba(14, 14, 14, 0.7);
   margin-bottom: 32px;
 }
@@ -76,11 +78,13 @@ nav {
   cursor: pointer;
   transition: 0.2s;
 }
-.sign-in-btn:hover{
+
+.sign-in-btn:hover {
   background-color: #006A50;
-  color:white;
+  color: white;
 }
-.sign-in-btn:active{
+
+.sign-in-btn:active {
   background-color: #004836;
 }
 
@@ -127,20 +131,23 @@ nav {
   border-radius: 16px;
   padding: 35px;
 }
-.btn-dt{
+
+.btn-dt {
   background-color: rgba(84, 144, 245, 1);
   color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 8px;
-  padding:11px 20px;
+  padding: 11px 20px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.btn-dt:hover{
+
+.btn-dt:hover {
   background-color: rgba(10, 75, 188, 0.8);
 }
-.btn-dt:active{
-  background-color:rgba(7, 58, 146, 0.8)
+
+.btn-dt:active {
+  background-color: rgba(7, 58, 146, 0.8)
 }
 
 .green-energy {
@@ -148,19 +155,22 @@ nav {
   border-radius: 16px;
   padding: 35px;
 }
-.btn-ge{
+
+.btn-ge {
   background-color: rgba(9, 161, 92, 1);
   color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 8px;
-  padding:11px 20px;
+  padding: 11px 20px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.btn-ge:hover{
+
+.btn-ge:hover {
   background-color: rgb(5, 124, 71, 0.8);
 }
-.btn-ge:active{
+
+.btn-ge:active {
   background-color: rgb(3, 66, 38, 0.8);
 }
 
@@ -169,23 +179,26 @@ nav {
   border-radius: 16px;
   padding: 35px;
 }
-.btn-mi{
+
+.btn-mi {
   background-color: rgba(255, 194, 57, 1);
   color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 8px;
-  padding:11px 20px;
+  padding: 11px 20px;
   cursor: pointer;
   transition: background-color 0.2s;
 }
-.btn-mi:hover{
+
+.btn-mi:hover {
   background-color: rgb(225, 161, 10, 0.8);
 }
-.btn-mi:active{
+
+.btn-mi:active {
   background-color: rgba(156, 110, 2, 0.8);
 }
 
-.message-chief-adviser{
+.message-chief-adviser {
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -195,28 +208,30 @@ nav {
   padding: 48px 24px;
 }
 
-.message{
+.message {
   font-size: 16px;
   line-height: 24px;
   color: rgba(14, 14, 14, 0.8);
   margin: 0;
 }
-.chief-adviser-name{
+
+.chief-adviser-name {
   margin-top: 12px;
   margin-bottom: 4px;
   color: rgba(14, 14, 14, 0.8);
 }
-.design{
+
+.design {
   margin: 0;
-  color:rgba(14, 14, 14, 0.6);
+  color: rgba(14, 14, 14, 0.6);
 }
 
 /* recent-news styles */
-.recent-news-section{
+.recent-news-section {
   margin: 0 160px 80px;
 }
 
-.recent-news-cards{
+.recent-news-cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -228,44 +243,48 @@ nav {
   margin-bottom: 24px;
 }
 
-.news-thumb{
+.news-thumb {
   width: 408px;
   border-radius: 24px;
   margin: 0;
 }
 
-.news-title{
+.news-title {
   font-size: 32px;
   font-weight: bold;
   margin-top: 8px;
   margin-bottom: 12px;
   color: rgba(14, 14, 14, 0.8);
 }
-.date-time{
+
+.date-time {
   display: flex;
   justify-content: flex-start;
   gap: 12px;
   color: rgba(14, 14, 14, 0.7);
   margin-bottom: 0;
 }
-.news-details{
+
+.news-details {
   margin-top: 0;
   margin-bottom: 32px;
 }
 
 /* donate section styles */
-.donate-section{
+.donate-section {
   margin: 0 160px 80px;
-  text-align: center;
   padding:0 120px;
+  text-align: center;
 }
-.amount-box{
+
+.amount-box {
   display: flex;
   justify-content: space-around;
   gap: 24px;
+
 }
 
-.amount{
+.amount {
   font-size: 40px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -274,31 +293,35 @@ nav {
   cursor: pointer;
   transition: background-color 0.15s, color 0.15s;
 }
-.amount:hover{
+
+.amount:hover {
   background-color: rgba(198, 228, 214, 1);
 }
-.amount:active{
+
+.amount:active {
   background-color: rgb(0, 106, 80, 1);
   color: white;
 }
-#other-amount{
-  width: 1000px;
+
+#other-amount {
   padding: 20px 40px;
   font-size: 18px;
   text-align: center;
   border: 1px solid rgba(14, 14, 14, 0.15);
-  margin: 32px 15px;
+  margin: 32px 124px;
+  max-width: 100%;
 }
 
 /* subscribe section */
-.subscribe-section{
+.subscribe-section {
   margin: 0 160px 80px;
   text-align: center;
   background-color: rgba(198, 228, 214, 1);
   border-radius: 24px;
   padding: 80px 100px;
 }
-#email{
+
+#email {
   margin-right: -5px;
   padding: 18px 403px 18px 40px;
   font-size: 16px;
@@ -306,11 +329,12 @@ nav {
   border-radius: 8px 0 0 8px;
 }
 
-.btn-subscribe{
+.btn-subscribe {
   border-radius: 0 8px 8px 0;
   padding: 18px 34px;
 }
-.ending-message{
+
+.ending-message {
   margin-top: 24px;
   margin-bottom: 0;
   color: rgba(14, 14, 14, 0.7);
