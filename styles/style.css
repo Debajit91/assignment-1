@@ -1,5 +1,11 @@
+.fira-sans{
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+
 .fira-sans-regular {
   font-family: "Fira Sans", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -17,6 +23,14 @@
   border-radius: 8px;
   font-size: 18px;
   padding: 14px 28px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.btn-primary:hover{
+  opacity: 0.8;
+}
+.btn-primary:active{
+  background-color: #004836;
 }
 
 .section-title {
@@ -24,7 +38,7 @@
   margin-bottom: 24px;
 }
 
-.section-description, .news-details {
+.section-description{
   color: rgba(14, 14, 14, 0.7);
   margin-bottom: 32px;
 }
@@ -59,6 +73,15 @@ nav {
   background-color: white;
   color: #006A50;
   font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.sign-in-btn:hover{
+  background-color: #006A50;
+  color:white;
+}
+.sign-in-btn:active{
+  background-color: #004836;
 }
 
 /* banner styles */
@@ -202,6 +225,44 @@ nav {
   margin-bottom: 0;
 }
 .news-details{
-  margin-top: 8px;
-  margin-bottom: 24px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+/* donate section styles */
+.donate-section{
+  margin: 0 160px 80px;
+  text-align: center;
+  padding:0 120px;
+}
+.amount-box{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+}
+
+.amount{
+  font-size: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 40px 40px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.amount:hover{
+  background-color: rgba(198, 228, 214, 1);
+}
+.amount:active{
+  background-color: rgb(0, 106, 80, 1);
+  color: white;
+}
+#other-amount{
+  display: block;
+  width: 1000px;
+  padding: 20px 40px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  margin: 32px 15px;
 }
