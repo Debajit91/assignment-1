@@ -133,6 +133,14 @@ nav {
   border: none;
   border-radius: 8px;
   padding:11px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-dt:hover{
+  background-color: rgba(10, 75, 188, 0.8);
+}
+.btn-dt:active{
+  background-color:rgba(7, 58, 146, 0.8)
 }
 
 .green-energy {
@@ -146,6 +154,14 @@ nav {
   border: none;
   border-radius: 8px;
   padding:11px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-ge:hover{
+  background-color: rgb(5, 124, 71, 0.8);
+}
+.btn-ge:active{
+  background-color: rgb(3, 66, 38, 0.8);
 }
 
 .modern-infrastructure {
@@ -159,6 +175,14 @@ nav {
   border: none;
   border-radius: 8px;
   padding:11px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.btn-mi:hover{
+  background-color: rgb(225, 161, 10, 0.8);
+}
+.btn-mi:active{
+  background-color: rgba(156, 110, 2, 0.8);
 }
 
 .message-chief-adviser{
@@ -258,11 +282,36 @@ nav {
   color: white;
 }
 #other-amount{
-  display: block;
   width: 1000px;
   padding: 20px 40px;
   font-size: 18px;
   text-align: center;
   border: 1px solid rgba(14, 14, 14, 0.15);
   margin: 32px 15px;
+}
+
+/* subscribe section */
+.subscribe-section{
+  margin: 0 160px 80px;
+  text-align: center;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+  padding: 80px 100px;
+}
+#email{
+  margin-right: -5px;
+  padding: 18px 403px 18px 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.btn-subscribe{
+  border-radius: 0 8px 8px 0;
+  padding: 18px 34px;
+}
+.ending-message{
+  margin-top: 24px;
+  margin-bottom: 0;
+  color: rgba(14, 14, 14, 0.7);
 }
